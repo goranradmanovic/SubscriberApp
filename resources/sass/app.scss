@@ -1,0 +1,23 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.lead-text {
+  color: $main-text-color;
+}
+
+.subscribe-btn {
+  background-color: $btn-color;
+  border-color: #c66b1b;
+}
+
+.btn-primary:hover {
+  background-color: #c66b1b!important;
+  border-color: #c66b1b !important;
+}
